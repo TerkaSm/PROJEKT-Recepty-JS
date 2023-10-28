@@ -1,4 +1,5 @@
 import './style.css';
+import img1 from './img/jidlo-1.jpg'
 
 export const RecipeDetail = ({ id, img, name, ingredient1, ingredient2, ingredient3, ingredient4, ingredient5, process }) => (
     <div className='RecipeDetail' key={id}>

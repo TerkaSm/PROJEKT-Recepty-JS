@@ -1,7 +1,9 @@
+import img1 from '/src/components/RecipeCard/img/jidlo-1.jpg'
+
 const recipes = [
   {
     id: 1,
-    img: "./assets/jidlo-1.jpg",
+    img: img1,
     name: "Obložený talíř",
     ingredient1: "italská šunka",
     ingredient2: "vejce",
