@@ -1,7 +1,7 @@
 import { render } from '@czechitas/render';
 import { RecipeCard } from '../components/RecipeCard';
-import '../global.css';
-import './index.css';
+import '../global.scss';
+import './index.scss';
 import recipes from '../recipes.js'
 
 

@@ -1,9 +1,9 @@
 .RecipeCard {
     background-color: #f0efef82;
     padding-bottom: 30px;
-  }
   
-  .RecipeCard__name {
+  
+  &__name {
     font-size: 40px;
     margin: 20px 0;
     color: rgb(43, 43, 43);
@@ -11,11 +11,11 @@
     font-family: 'Ms Madi', cursive;
   }
 
-  .RecipeCard__buttons {
+  &__buttons {
     margin: 0 auto;
     text-align: center;
     display: grid;
     justify-content: center;
     padding: 0 45px;
   }
-  
+}  

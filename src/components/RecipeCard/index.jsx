@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 
 export const RecipeCard = ({ id, img, name }) => (
     <div className='RecipeCard' key={id}>

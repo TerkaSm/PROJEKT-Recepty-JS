@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "glob": "^10.3.10",
+    "sass": "^1.69.5",
     "vite": "^4.5.0"
   }
 }
