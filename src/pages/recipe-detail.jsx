@@ -1,22 +1,11 @@
 import { render } from '@czechitas/render';
 import { RecipeDetail} from '../components/RecipeDetail';
-import '../global.css';
-import './index.css';
+import '../global.scss';
+import './index.scss';
 
-const params = new URLSearchParams(window.location.search);
-const id = params.get('id');
 
-const answer = await fetch(`http://localhost:4000/api/recipes/${id}`, {
-  method: 'GET',
-});
+// const recipe = bodyOfResult.result
 
-const bodyOfResult = await answer.json()
-console.log(bodyOfResult)
-console.log(bodyOfResult.result)
-
-const recipe = bodyOfResult.result
-
-console.log(recipe);
 
 document.querySelector('#root').innerHTML = render(
   <div className="container">
@@ -30,15 +19,3 @@ document.querySelector('#root').innerHTML = render(
     </main>
   </div>,
 );
-
-const onClick = async (event) => {
-    const answer = await fetch (`http://localhost:4000/api/recipes/${id}`, {
-    method: 'DELETE',
-    })
-
-    const bodyAnswer = await answer.json()
-
-    window.location='/'
-}
-
-document.querySelector('#delete-button').addEventListener('click', onClick)

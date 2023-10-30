@@ -13,7 +13,7 @@ const recipes = [
   {
     id: 2,
     img: "/assets/jidlo-2.jpg",
-    name: "Jáhová kaše",
+    name: "Jáhlová kaše",
     ingredient1: "jáhly",
     ingredient2: "voda",
     ingredient3: "borůvky",
