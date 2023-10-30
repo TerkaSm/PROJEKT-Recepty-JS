@@ -1,9 +1,7 @@
-import img1 from '/src/components/RecipeCard/img/jidlo-1.jpg'
-
 const recipes = [
   {
     id: 1,
-    img: img1,
+    img: "/assets/jidlo-1.jpg",
     name: "Obložený talíř",
     ingredient1: "italská šunka",
     ingredient2: "vejce",
@@ -14,7 +12,7 @@ const recipes = [
   },
   {
     id: 2,
-    img: "assets/jidlo-2.jpg",
+    img: "/assets/jidlo-2.jpg",
     name: "Jáhová kaše",
     ingredient1: "jáhly",
     ingredient2: "voda",
@@ -25,7 +23,7 @@ const recipes = [
   },
   {
     id: 3,
-    img: "/src/assets/jidlo-3.jpg",
+    img: "/assets/jidlo-3.jpg",
     name: "Ovesná kaše s jablky",
     ingredient1: "ovesné vločky",
     ingredient2: "jablko",
@@ -36,7 +34,7 @@ const recipes = [
   },
   {
     id: 4,
-    img: "../assets/jidlo-4.jpg",
+    img: "/assets/jidlo-4.jpg",
     name: "Potstickers",
     ingredient1: "mleté maso",
     ingredient2: "zelenina",
@@ -47,7 +45,7 @@ const recipes = [
   },
   {
     id: 5,
-    img: "./../assets/jidlo-5.jpg",
+    img: "/assets/jidlo-5.jpg",
     name: "Švédský stůl",
     ingredient1: "palačinky",
     ingredient2: "jahody",
@@ -58,7 +56,7 @@ const recipes = [
   },
   {
     id: 6,
-    img: "",
+    img: "/assets/jidlo-6.jpg",
     name: "Podzimní salát",
     ingredient1: "dýně Hokaido",
     ingredient2: "směs salátů",
@@ -69,7 +67,7 @@ const recipes = [
   },
   {
     id: 7,
-    img: "http://localhost:4000/assets/jidlo-7.jpg",
+    img: "/assets/jidlo-7.jpg",
     name: "Plněné topinky",
     ingredient1: "chleba",
     ingredient2: "houby",
@@ -80,7 +78,7 @@ const recipes = [
   },
   {
     id: 8,
-    img: "http://localhost:4000/assets/jidlo-8.jpg",
+    img: "/assets/jidlo-8.jpg",
     name: "Krupicová kaše",
     ingredient1: "krupice",
     ingredient2: "pomeranč",
@@ -91,7 +89,7 @@ const recipes = [
   },
   {
     id: 9,
-    img: "http://localhost:4000/assets/jidlo-9.jpg",
+    img: "/assets/jidlo-9.jpg",
     name: "'Cupcake' vejce",
     ingredient1: "mouka",
     ingredient2: "voda",
