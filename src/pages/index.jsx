@@ -2,7 +2,7 @@ import { render } from '@czechitas/render';
 import { RecipeCard } from '../components/RecipeCard';
 import '../global.scss';
 import './index.scss';
-import recipes from '../recipes.js'
+import {recipes} from '../recipes.js'
 
 
 document.querySelector('#root').innerHTML = render(

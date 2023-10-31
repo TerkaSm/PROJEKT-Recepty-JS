@@ -12,7 +12,7 @@ document.querySelector('#root').innerHTML = render(
     </header>
     <main>
 
-    <RecipeDetail key={recipe.id} img={recipe.img} name={recipe.name} ingredient1={recipe.ingredient1} ingredient2={recipe.ingredient2} ingredient3={recipe.ingredient3} ingredient4={recipe.ingredient4} ingredient5={recipe.ingredient5} process={recipe.process} />
+    <RecipeDetail key={recipes.id} img={recipes.img} name={recipes.name} ingredient1={recipes.ingredient1} ingredient2={recipes.ingredient2} ingredient3={recipes.ingredient3} ingredient4={recipes.ingredient4} ingredient5={recipes.ingredient5} process={recipes.process} />
 
     </main>
   </div>,
