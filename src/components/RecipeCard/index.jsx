@@ -1,7 +1,9 @@
 import './style.scss';
+import { recipes } from '../../recipes';
 
 export const RecipeCard = ({ id, img, name }) => (
-    <div className='RecipeCard' key={id}>
+    {recipes.map(recipe => (
+        <div className='RecipeCard' key={id}>
         <figcaption className='RecipeCard__fig'>
         <img className='RecipeCard__img' width='333' src={img} alt={name} />
         </figcaption>
@@ -10,4 +12,5 @@ export const RecipeCard = ({ id, img, name }) => (
             <a className='button' href={`recipe-detail.html?id=${id}`}>Uvařit</a>
         </div>
     </div>
+    ))}
 )

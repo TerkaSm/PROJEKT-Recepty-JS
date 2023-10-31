@@ -1,4 +1,4 @@
-const recipes = [
+export const recipes = [
   {
     id: 1,
     img: "/assets/jidlo-1.jpg",
@@ -99,6 +99,3 @@ const recipes = [
     process: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda voluptatibus dicta, laborum architecto commodi earum, voluptatum, incidunt tempora suscipit asperiores consequuntur. Esse molestias quas nisi totam illum similique. Exercitationem reiciendis, totam natus ea, veniam laudantium voluptatem similique numquam harum voluptate voluptatum laborum provident ipsam animi ab ipsa rerum modi."
   }
 ];
-
-export default recipes;
-
