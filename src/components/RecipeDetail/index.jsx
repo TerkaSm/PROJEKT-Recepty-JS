@@ -1,16 +1,14 @@
 import './style.scss';
-import { recipes } from './../../recipes';
 
 export const RecipeDetail = ({ id, img, name, ingredient1, ingredient2, ingredient3, ingredient4, ingredient5, process }) => (
-  recipes.map(recipe => (
     <div className='RecipeDetail' key={id}>
       <div className='RecipeDetail__flex'>
         <figcaption className='RecipeDetail__fig'>
-          <img className='RecipeDetail__img' width='333' src={img} alt={name} />
+          <img className='RecipeDetail__img' width='360' src={img} alt={name} />
         </figcaption>
         <div className='RecipeDetail__'>
-          <h1 className='RecipeDetail__'>{name}</h1>
-          <h2 className='RecipeDetail__'>Seznam surovin</h2>
+          <h1 className='heading-secondary'>{name}</h1>
+          <p className='RecipeDetail__'>Seznam surovin:</p>
           <ul className='RecipeDetail__'>
             <li className='RecipeDetail__'>{ingredient1}</li>
             <li className='RecipeDetail__'>{ingredient2}</li>
@@ -24,6 +22,6 @@ export const RecipeDetail = ({ id, img, name, ingredient1, ingredient2, ingredie
       <div>
           <p><a className='button' href="index.html">Zpět</a></p>
     </div>
-  </div>))
+  </div>
 )
 

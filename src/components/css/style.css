@@ -1,18 +1,21 @@
-.RecipeCard {
-  background-color: rgba(240, 239, 239, 0.5098039216);
-  padding-bottom: 30px;
-}
-.RecipeCard__name {
-  font-size: 40px;
-  margin: 20px 0;
-  color: rgb(43, 43, 43);
-  text-align: center;
-  font-family: "Ms Madi", cursive;
-}
-.RecipeCard__buttons {
+.RecipeDetail {
+  max-width: 1040px;
   margin: 0 auto;
-  text-align: center;
-  display: grid;
-  justify-content: center;
-  padding: 0 45px;
+  padding: 20px;
+}
+.RecipeDetail__flex {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+@media screen and (min-width: 770px) {
+  .RecipeDetail__flex {
+    flex-direction: row;
+    gap: 50px;
+  }
+}
+.RecipeDetail__img {
+  display: block;
 }/*# sourceMappingURL=style.css.map */

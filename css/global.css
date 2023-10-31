@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -15,20 +14,20 @@ html {
 }
 
 h1, h2, h3 {
-  font-family: 'Ms Madi', cursive;
+  font-family: "Ms Madi", cursive;
   font-weight: 400;
 }
 
 .heading-primary {
   color: rgb(94, 93, 93);
-  font-family: 'Ms Madi', cursive;
+  font-family: "Ms Madi", cursive;
   font-size: 5rem;
   margin-top: 0;
   font-weight: 400;
 }
 
 .heading-secondary {
-  font-family: 'Ms Madi', cursive;
+  font-family: "Ms Madi", cursive;
   font-size: 3.125rem;
   margin-top: 0;
 }
@@ -45,14 +44,10 @@ p {
   background-color: rgb(213, 171, 65);
   border: none;
   border-radius: 20px;
-
-  &:hover {
-    background-color: rgb(120, 46, 46);
-  }
-  
-  &--secondary {
-    background-color: rgb(182, 182, 182);
-  }
 }
-
-
+.button:hover {
+  background-color: rgb(120, 46, 46);
+}
+.button--secondary {
+  background-color: rgb(182, 182, 182);
+}/*# sourceMappingURL=global.css.map */
